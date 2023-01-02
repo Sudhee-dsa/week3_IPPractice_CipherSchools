@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- two types of css units -->
+    <!-- abslute units (fixed)-->
+    <!-- relative units (changes)-->
+    <p>the quick brown fox jumps over the lazy dog</p>
+    
+</body>
+</html>
+p{
+    /* font-size:16px; */
+    font-size:32px;
+    font-size:96px;
+    /* 1 inch == 96px*/
+    font-size: 1in;
+    /* 1in==2.54cm */
+    font-size: 2.54cm;
+    /* 1 px == 0.75pt */
+    /* 16 px == 0.75*16(12) */
+    font: size 12pt;
+    /* border:2px solid red; */
+    border:12pt solid red;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box1">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere recusandae repellat aliquid quae doloremque! Qui voluptas reprehenderit rerum mollitia. Repudiandae?</p>
+         
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
+html{
+    font-size: 10px;
+    /* font-size: 62.5%; */
+}
+
+
+
+h1{
+    /* for font - size use rem */
+    font-size: 4.8rem;/*if we want 48px as font-size then 4.8*10=48*/
+    border: 4px solid black;
+    padding: 2em; /*4.8*10*2=96*/
+}
+p{
+    font-size:2rem;
+    
+
+
+
+}

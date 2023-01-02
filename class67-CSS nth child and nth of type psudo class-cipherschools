@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>I am the first paragraph inside header and first element too</p>
+        <p>I am a second paragraph</p>
+        <p>I am a third paragraph</p>
+        <p>I am a forth paragraph</p>
+        <p>I am a fifth paragraph</p>
+        <p>I am a sixth paragraph</p>
+        <p>I am a seventh paragraph</p>
+        <p>I am a eighth paragraph</p>
+        <h3>I ama heading and last element</h3>
+    </header>
+    <header>
+        <h1>heading</h1>
+        <p>I am the first paragraph</p>
+        <p>I am a second paragraph</p>
+        <p>I am a third paragraph</p>
+    </header>
+    <p>I am diect child of body</p>    
+    <p>I am also direct child of body</p>
+<div class="container">
+    <p>I am a first paragraph inside container2</p>
+    <p>I am a first paragraph inside container2</p>
+    <p>I am a last paragraph inside container 2</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+    </ul>
+    
+</body>
+</html>
+/* p:nth-child(2){
+    color:green
+} */
+/* here only the 2 nd child of p changes its color */
+/* p:nth-child(2n){
+    color:green
+} */
+/* here all 2 ,4,6,8 even number paragraphs will change color */
+/* here value of n sarts from 0 */
+/* all even */
+/* p:nth-child(2n+1){
+    color:green
+} */
+/* here all odd  */
+/* p:nth-of-type(2n){
+    color:red
+} */
+/* ul li:nth-of-type(2){
+    color:red;
+    background-color: blue;
+
+} */
+/* ul li:nth-of-type(2n){
+    color:red;
+    background-color: blue;
+
+} */
+ul li:nth-of-type(2n+1){
+    color:red;
+    background-color: blue;
+
+}

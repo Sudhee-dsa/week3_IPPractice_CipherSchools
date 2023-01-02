@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nihil ad quia minus temporibus aperiam explicabo molestias animi, accusantium laboriosam eum iure necessitatibus, fugit asperiores quibusdam impedit ducimus reiciendis dolor unde rerum esse aliquid porro quaerat. Enim cumque sunt perferendis recusandae repellendus magnam fugiat quis obcaecati, illo ducimus consectetur, animi quisquam autem perspiciatis maxime aperiam? Asperiores deleniti, voluptatem quam dicta magnam nulla consequatur quasi voluptate blanditiis ratione laudantium aperiam a ipsa delectus atque, consectetur minima. Alias repudiandae placeat provident deleniti sequi omnis accusamus delectus labore molestias inventore laboriosam culpa voluptate nostrum, in fugit voluptas a recusandae sed vero nisi quia.</p>
+</body>
+</html>
+p{
+    font-family: 'Poppins', sans-serif;
+   font-weight: normal; 
+   /* normal or 400 */
+   font-weight: bold;
+   /* bold or 700 */
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    /* after 700 it looks same as 400 */
+    /* for 400 or less than of it shows as same as 400 */
+
+}
